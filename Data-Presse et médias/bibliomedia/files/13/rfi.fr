@@ -1,0 +1,1 @@
+PARSELY.pInit({"apikey":"rfi.fr","settings":{"debug":false,"widget":false,"tracker":true},"customizations":null,"track_ip_addresses":true,"bundle":"/code/ptrack-v0.8.0-engaged-time.js","track_third_party_cookies":true,"uuid":"cd259d58-7fbd-4d78-969e-7cd62b4cb7cf","network_uuid":"8bf05fe4-bb18-4197-9244-1a6c2ebdabae","apikey_uuid":"cd259d58-7fbd-4d78-969e-7cd62b4cb7cf"});

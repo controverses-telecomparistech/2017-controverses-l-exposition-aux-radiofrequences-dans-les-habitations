@@ -1,0 +1,1 @@
+!function(){"use strict";window.localStorage&&(localStorage.removeItem("us_meter_activation"),localStorage.removeItem("us_meter_readed"))}();

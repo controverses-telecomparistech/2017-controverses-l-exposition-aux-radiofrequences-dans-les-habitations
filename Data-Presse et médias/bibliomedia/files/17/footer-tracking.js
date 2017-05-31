@@ -1,0 +1,1 @@
+define(function(require){"use strict";require("lmd/core/context");require("lmd/core/webperf/monitor"),require("lmd/core/metrics/ignition-one").init(),require("lmd/core/metrics/article-performance"),require("lmd/core/metrics/adlead"),require("lmd/core/metrics/radium-one"),require("lmd/core/metrics/ligatus"),require("lmd/core/metrics/aisle")});

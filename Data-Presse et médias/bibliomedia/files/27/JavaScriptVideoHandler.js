@@ -1,0 +1,1 @@
+ if (typeof(VideoConfig) == 'undefined') VideoConfig = {}; VideoConfig = {"videoFeederConsole":"http://console.eureka.cc/","languageId":1};

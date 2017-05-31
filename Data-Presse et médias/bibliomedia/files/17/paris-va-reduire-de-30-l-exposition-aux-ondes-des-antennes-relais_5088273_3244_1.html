@@ -1,0 +1,100 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+
+<meta name="wpd_version" content="0.2">
+<meta name="wpd_baseurl" content="http://www.lemonde.fr/planete/article/2017/03/02/paris-va-reduire-de-30-l-exposition-aux-ondes-des-antennes-relais_5088273_3244.html">
+<meta name="wpd_url" content="http://cstatic.weborama.fr/iframe/customers/premium.html?idEditeur=1173&amp;idSite=257">
+<meta name="wpd_date" content="2017-04-10T09:24Z">
+
+
+ <meta name="robots" content="noindex, nofollow">
+</head>
+<body>
+<script type="text/javascript">
+
+
+var idSite = getParameterByName('idSite');  
+var isPremium = getCookie('isPremium');
+var referer= getParentUrl();
+var AFFICHE_W = getCookie('AFFICHE_W');
+
+
+
+if (isPremium == 'true' && idSite != ''){
+		var image_url = 'http'+('https:'==document.location.protocol?'s':'')+'://premium.solution.weborama.fr/fcgi-bin/dispatch.fcgi?a.A=im&a.si=2124&a.te='+idSite+'&a.he=1&a.wi=1&a.hr=p&a.ra='+Math.floor(Math.random()*10000001);
+		var img = new Image();
+		img.src = image_url;
+		
+		if (referer!=''){
+			var image2_url = 'http'+('https:'==document.location.protocol?'s':'')+'://www.etude-premium.fr/check/?a.te='+idSite+'&a.href='+referer+'&a.ra='+Math.floor(Math.random()*10000001);
+			var img2 = new Image();
+			img2.src = image2_url;			
+		}
+}
+
+
+
+if (isPremium == null && idSite != '' && AFFICHE_W != null){
+		var ShortAFFICHE_W = AFFICHE_W.substring(0, 12);
+		var tblaffw=[{"w":"6NdU1dYW07Po"},{"w":"8Qpt8k-LdXHx"},{"w":"9u-z9VwZie-2"},{"w":"a37ptcgZw9vr"},{"w":"AbBSVn5DLikB"},{"w":"B1zD2uCBPCsH"},{"w":"baU2OeSaSs5t"},{"w":"cr1-PfGWVu5y"},{"w":"D1fk2BjXGFgP"},{"w":"E6BkeDUv80gT"},{"w":"E7mdT9sLSAMT"},{"w":"EdcBpMq8fw8R"},{"w":"EW9ydzZykJ0R"},{"w":"h1CHmg4nsKOH"},{"w":"I26y1tpONNgj"},{"w":"i99kF@X9aUGL"},{"w":"iBH3AlDZdsSI"},{"w":"icmY-nc4RnyJ"},{"w":"jJjtxRfFHHmM"},{"w":"lxoLtXTAYemX"},{"w":"Nerv@nL2Jn41"},{"w":"Nh-w9954XUY2"},{"w":"nUor7y3YWb6d"},{"w":"O9G80W9MKwg7"},{"w":"p9bD4v0IJ2Wn"},{"w":"sAHQVvJep@yw"},{"w":"sh-2jHWibkqy"},{"w":"u4Tfw2jYQFy7"},{"w":"UaQGdaRGx7pR"},{"w":"uDA3824Hi@C4"},{"w":"VIG0QszNLitU"},{"w":"XZ4uEz@jnaxd"},{"w":"y0LfspPPJtjL"},{"w":"zUetekND0bDN"}];
+		for (var j=0;j<tblaffw.length;j++)
+		{
+			if (tblaffw[j].w == ShortAFFICHE_W)
+			{
+				var image_url = 'http'+('https:'==document.location.protocol?'s':'')+'://premium.solution.weborama.fr/fcgi-bin/dispatch.fcgi?a.A=im&a.si=2124&a.te='+idSite+'&a.he=1&a.wi=1&a.hr=p&a.ra='+Math.floor(Math.random()*10000001);
+				var img = new Image();
+				img.src = image_url;
+				
+				if (referer!=''){
+					var image2_url = 'http'+('https:'==document.location.protocol?'s':'')+'://www.etude-premium.fr/check/?a.te='+idSite+'&a.href='+referer+'&a.ra='+Math.floor(Math.random()*10000001);
+					var img2 = new Image();
+					img2.src = image2_url;		
+				}
+			}
+		}
+}
+
+
+
+
+function getParentUrl() {
+    var isInIframe = (parent !== window),
+        parentUrl = null;
+
+    if (isInIframe) {
+        parentUrl = document.referrer;
+    }
+
+    return parentUrl;
+}
+
+
+function getParameterByName(name) {
+    name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
+    var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
+        results = regex.exec(location.search);
+    return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
+}
+
+function getCookie(name){
+     if(document.cookie.length == 0)
+       return null;
+
+     var regSepCookie = new RegExp('(; )', 'g');
+     var cookies = document.cookie.split(regSepCookie);
+
+     for(var i = 0; i < cookies.length; i++){
+       var regInfo = new RegExp('=', 'g');
+       var infos = cookies[i].split(regInfo);
+       if(infos[0] == name){
+         return unescape(infos[1]);
+       }
+     }
+     return null;
+   }
+</script>
+
+</body>
+</html>

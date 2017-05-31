@@ -1,0 +1,1 @@
+ObsShareCount({"services":{"facebook":{"shareCount":0,"total":0},"pinterest":0,"linkedin":21,"googleplus":146,"twitter":0}})

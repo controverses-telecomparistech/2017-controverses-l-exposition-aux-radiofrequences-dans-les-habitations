@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+    <title>Box</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.slick/1.5.0/slick.css" />
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery.slick/1.5.0/slick.min.js"></script>
+    <script type="text/javascript" language="JAVASCRIPT">
+        function lg_u() {
+            var u = '';
+            for (i = 0; i < arguments.length; i++) {
+                u = u + arguments[i];
+            }
+            u = u.replace(/_#s#_/g, '/');
+            u = u.replace(/_#p#_/g, '.php');
+            u = u.replace(/_#h#_/g, '.htm');
+            window.open(u);
+        }
+    </script>
+    <style>
+        body {
+            font-family: arial;
+            width: 100%;
+            position: relative;
+            height: 228px;
+            /* Hauteur de la box */
+            margin: 0;
+        }
+        
+        header {
+            width: 100%;
+            height: 25px;
+            background-color: #000;
+        }
+        
+        header h1 {
+            width: 58%;
+            text-align: left;
+            font-size: 12px;
+            color: #fff;
+            margin: 0;
+            line-height: 25px;
+            height: 25px;
+            float: left;
+            overflow: hidden;
+            padding-left: 5px;
+        }
+        
+        header h2 {
+            width: 37%;
+            font-size: 12px;
+            color: #fff;
+            margin: 0;
+            line-height: 25px;
+            height: 25px;
+            float: right;
+            overflow: hidden;
+            text-align: right;
+            padding-right: 5px;
+        }
+        
+        footer {
+            width: 100%;
+            max-width: 228px;
+            height: 33px;
+            background-color: #fff;
+        }
+        
+        footer div {
+            display: inline-block;
+            vertical-align: top;
+        }
+        
+        footer .footer-txt {
+            padding: 5px 0 0 10px;
+            width: 56%;
+            height: 28px;
+        }
+        
+        footer .footer-button {
+            padding: 5px 0 0 10px;
+            width: 35%;
+            float: right;
+            height: 28px;
+        }
+        
+        footer .footer-txt h1 {
+            margin: 0;
+            font-family: "roboto", arial;
+            font-size: 14px;
+            color: #000;
+            font-weight: initial;
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+        }
+        
+        footer .footer-txt h2 {
+            margin: 0;
+            font-family: "roboto", arial;
+            font-size: 11.5px;
+            color: #202020;
+            font-weight: initial;
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+        }
+        
+        footer .footer-button button {
+            width: 75px;
+            height: 30px;
+            border: 0;
+            font-size: 11px;
+            line-height: 31px;
+            background-color: #000;
+            color: #fff;
+            font-family: "roboto", arial;
+            text-transform: uppercase;
+            padding: 0;
+        }
+        /* Carousel */
+        
+        .js-brand-slick {
+            margin: 0;
+            padding: 0;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .slick-track {
+            height: 228px;
+            /* Hauteur de la box - 30px, la hauteur du header (30px) (si header présent) */
+        }
+        
+        .slick-slide a {
+            display: block;
+            height: 228px;
+            /* Hauteur de la box - 60px, la hauteur du header (30px) + la hauteur du footer (30px) */
+            text-decoration: none;
+        }
+        
+        div img {
+            max-width: 100%;
+            height: auto;
+            max-height: 150px;
+        }
+        /* Pagination */
+        
+        .slick-dots {
+            list-style-type: none;
+            padding: 0;
+            position: absolute;
+            bottom: 0;
+            text-align: center;
+            width: 100%;
+            height: 15px;
+            background-color: #fff;
+        }
+        
+        .slick-dots li {
+            display: inline-block;
+            padding-right: 6px;
+            margin-top: 0px;
+        }
+        
+        .slick-dots li button {
+            background-color: #b3bfbb;
+            /* Couleur des 'puces' de la pagination non active */
+            display: inline-block;
+            width: 11px;
+            height: 11px;
+            color: transparent;
+            border: 0;
+            -moz-border-radius: 6px;
+            -webkit-border-radius: 6px;
+            border-radius: 6px;
+            outline: none;
+            cursor: pointer;
+        }
+        
+        .slick-dots li button:hover,
+        .slick-dots .slick-active button {
+            background-color: #859892;
+            /* Couleur des 'puces' de la pagination active */
+            color: transparent;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <ul class="js-brand-slick">
+        <li>
+            <header>
+                <h1>Achetez Malin</h1>
+                <h2>Publicité</h2>
+            </header>
+            <a href="http://tempsreel.nouvelobs.com/espace-shopping-bons-plans/reduction-code-promo-hotels-366.html" target="_blank">         <!-- Lien de redictection de l'image -->
+                    <img src="https://tempsreel.nouvelobs.com/espace-shopping-bons-plans/228/ebc_lobs_228x150_hotels.jpg" alt="img" />        <!-- Lien de l'image -->
+                    <footer>
+                        <div class="footer-txt">
+                            <h1>Hotels.com</h1>
+                            <h2>5,4% d'économie</h2>
+                        </div>
+                        <div class="footer-button">
+                            <button>Découvrir</button>
+                        </div>
+                    </footer>
+                </a>
+        </li>
+        <li>
+            <header>
+                <h1>Achetez Malin</h1>
+                <h2>Publicité</h2>
+            </header>
+            <a href="http://tempsreel.nouvelobs.com/espace-shopping-bons-plans/reduction-code-promo-sephora-254.html" target="_blank">              <!-- Lien de redictection de l'image -->
+                    <img src="https://tempsreel.nouvelobs.com/espace-shopping-bons-plans/228/ebc_lobs_250x128_sephora.jpg" alt="img" />             <!-- Lien de l'image -->
+                    <footer>
+                        <div class="footer-txt">
+                            <h1>Sephora </h1>
+                            <h2>4% d'économie</h2>
+                        </div>
+                        <div class="footer-button">
+                            <button>Découvrir</button>
+                        </div>
+                    </footer>
+                </a>
+        </li>
+        <li>
+            <header>
+                <h1>Achetez Malin</h1>
+                <h2>Publicité</h2>
+            </header>
+            <a href="http://tempsreel.nouvelobs.com/espace-shopping-bons-plans/reduction-code-promo-carrefour-drive-3075325.html" target="_blank">              <!-- Lien de redictection de l'image -->
+                    <img src="https://tempsreel.nouvelobs.com/espace-shopping-bons-plans/228/ebc_lobs_228x150_carrefour.jpg" alt="img" />             <!-- Lien de l'image -->
+                    <footer>
+                        <div class="footer-txt">
+                            <h1>Carrefour Drive</h1>
+                            <h2>5€ offert</h2>
+                        </div>
+                        <div class="footer-button">
+                            <button>Découvrir</button>
+                        </div>
+                    </footer>
+                </a>
+        </li>
+    </ul>
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+            jQuery(".js-brand-slick").slick({
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                infinite: true,
+                dots: true,
+                arrows: false,
+                autoplay: true,
+                autoplaySpeed: 4000,
+                pauseOnHover: false
+            });
+        });
+    </script>
+
+    
+</body>
+
+</html>

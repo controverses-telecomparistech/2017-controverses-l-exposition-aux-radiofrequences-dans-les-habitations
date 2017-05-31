@@ -1,0 +1,29 @@
+function OAS_RICH(position) {
+if (position == 'Bottom') {
+document.write ('<!-- BEGIN JS TAG - directmatin.fr cuisine atf web - RG Habillage ATF - DO NOT MODIFY --> <div id="tagHabillage"> <script type=');
+document.write ("'");
+document.write ('text/javascript');
+document.write ("'");
+document.write ('> var asq_skin_params = { "id": 9471939, "scrollup": true, "insertBefore": [{ "type": "id", "name": "wrapper-publicite" }, ], "passback": encodeURIComponent("http://slot.cnewsmatin.fr/3/cnewsmatin.fr/politique/L23/1201864746@Bottom?RM_Exclude=asq&"), ');
+document.write ("'");
+document.write ('tobottom');
+document.write ("'");
+document.write (': 0 }; </script> <script type="text/javascript" src="//cdn.audiencesquare.com/habillage/asqskin.js"></script> </div> <!-- END TAG --><IMG SRC="http://slot.cnewsmatin.fr/5/cnewsmatin.fr/politique/L23/1201864746/Bottom/Bollore/ASQ_HAB-RG_2016/ASQ_HAB-RG_2016.html/6963495768316b6c4e6e73414163746e?_RM_EMPTY_&" style="display:none;" alt="">');
+}
+if (position == 'Middle') {
+document.write ('<!-- BEGIN JS TAG - directmatin.fr presse mtf web - RG paveD2 - DO NOT MODIFY --><div style="text-align: center;" id="asq_tag_107884" data-passback="http://slot.cnewsmatin.fr/3/cnewsmatin.fr/politique/L23/2111669206@Middle?RM_Exclude=asq&"  ></div><script src="//cdn.audiencesquare.com/tags/107884.js"></script><!-- END TAG --><IMG SRC="http://slot.cnewsmatin.fr/5/cnewsmatin.fr/politique/L23/2111669206/Middle/Bollore/ASQ_PAVE-MTF-RG_2016/ASQ_PAVE-MTF-RG_2016.html/6963495768316b6c4e6e73414163746e?_RM_EMPTY_&" style="display:none;" alt="">');
+}
+if (position == 'Middle1') {
+document.write ('<!-- BEGIN JS TAG - directmatin.fr presse btf web - RG paveD3 - DO NOT MODIFY --><div style="text-align: center;" id="asq_tag_107885" data-passback="http://slot.cnewsmatin.fr/3/cnewsmatin.fr/politique/L23/1769127649@Middle1?RM_Exclude=asq&"  ></div><script src="//cdn.audiencesquare.com/tags/107885.js"></script><!-- END TAG --><IMG SRC="http://slot.cnewsmatin.fr/5/cnewsmatin.fr/politique/L23/1769127649/Middle1/Bollore/ASQ_PAVE-BTF-RG_2016/ASQ_PAVE-BTF-RG_2016.html/6963495768316b6c4e6e73414163746e?_RM_EMPTY_&" style="display:none;" alt="">');
+}
+if (position == 'Top') {
+document.write ('<!-- Bollore/AFFIPERF-MBAN_0414 -->\n');
+document.write ('<SCRIPT SRC="http://ib.adnxs.com/ttj?id=2479793&size=728x90&position=above&pt1=Top&referrer=directmatin.fr&cb=740202039&promo_alignment=center" TYPE="text/javascript"></SCRIPT><IMG SRC="http://slot.cnewsmatin.fr/5/cnewsmatin.fr/politique/L23/740202039/Top/Bollore/AFFIPERF-MBAN_0414/AFFIPERF-MBAN_0414.html/6963495768316b6c4e6e73414163746e?_RM_EMPTY_&" style="display:none;" alt="">');
+}
+if (position == 'Top1') {
+document.write ('<A HREF="http://slot.cnewsmatin.fr/5c/cnewsmatin.fr/politique/1667696897/Top1/default/empty.gif/6963495768316b6c4e6e73414163746e?x" target="_top"><IMG SRC="http://cdn.oas-eu1.adnxs.com/0/default/empty.gif"  WIDTH=1 HEIGHT=1 ALT="" BORDER=0 BORDER="0"></A>');
+}
+if (position == 'Top2') {
+document.write ('<A HREF="http://slot.cnewsmatin.fr/5c/cnewsmatin.fr/politique/949213075/Top2/default/empty.gif/6963495768316b6c4e6e73414163746e?x" target="_top"><IMG SRC="http://cdn.oas-eu1.adnxs.com/0/default/empty.gif"  WIDTH=1 HEIGHT=1 ALT="" BORDER=0 BORDER="0"></A>');
+}
+}

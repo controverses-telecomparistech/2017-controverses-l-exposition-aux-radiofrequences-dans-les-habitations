@@ -1,0 +1,2 @@
+var CM = function () {}; CM.prototype = { initialize: function () {} }; var adback = adback || {}; adback["CM"] = adback.CM || CM;
+var API = function () {}; API.prototype = { initialize: function () {} }; var adback = adback || {}; adback["API"] = adback.API || API;

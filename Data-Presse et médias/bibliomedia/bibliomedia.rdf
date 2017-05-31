@@ -1,0 +1,654 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bib="http://purl.org/net/biblio#"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:link="http://purl.org/rss/1.0/modules/link/">
+    <bib:Document rdf:about="http://zotero.org/support/quick_start_guide">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Center for History and New Media</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dcterms:isReferencedBy rdf:resource="#item_2"/>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://zotero.org/support/quick_start_guide</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:title>Guide rapide pour débuter</dc:title>
+    </bib:Document>
+    <bib:Memo rdf:about="#item_2">
+        <rdf:value>&lt;p&gt;&lt;strong&gt;Bienvenue dans Zotero !&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Visualiser le guide rapide pour apprendre et commencer à collecter, gérer, citer et partager vos sources de recherche.&lt;/p&gt;
+&lt;p&gt;Merci d'avoir installé Zotero.&lt;/p&gt;</rdf:value>
+    </bib:Memo>
+    <bib:Document rdf:about="http://tempsreel.nouvelobs.com/l-enquete-de-l-obs/20130930.OBS9058/portables-wi-fi-tablettes-les-vrais-dangers-des-ondes.html">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website><dc:title>L'Obs</dc:title></z:Website>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Benyahia-Kouider</foaf:surname>
+                        <foaf:givenname>Odile</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_11"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://tempsreel.nouvelobs.com/l-enquete-de-l-obs/20130930.OBS9058/portables-wi-fi-tablettes-les-vrais-dangers-des-ondes.html</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:date>23/01/2014</dc:date>
+        <dcterms:dateSubmitted>2017-05-10 07:53:44</dcterms:dateSubmitted>
+        <dcterms:abstract>Une proposition de loi du groupe écologiste sur l'exposition aux ondes est examinée jeudi. Les spécialistes se divisent sur leurs risques sur la santé. Et si elles n'étaient pas si inoffensives ?</dcterms:abstract>
+        <dc:title>Portables, Wi-Fi, tablettes : les vrais dangers des ondes</dc:title>
+        <z:shortTitle>Portables, Wi-Fi, tablettes</z:shortTitle>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_11">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/11/portables-wi-fi-tablettes-les-vrais-dangers-des-ondes.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://tempsreel.nouvelobs.com/l-enquete-de-l-obs/20130930.OBS9058/portables-wi-fi-tablettes-les-vrais-dangers-des-ondes.html</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2017-05-10 07:53:46</dcterms:dateSubmitted>
+        <dc:title>Snapshot</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="http://www.rfi.fr/science/20160708-droits-enfant-sante-medecine-nouvelles-technologies-ondes-electromagnetiques-teleph">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website><dc:title>RFI</dc:title></z:Website>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Mbengue</foaf:surname>
+                        <foaf:givenname>Aram</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_13"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.rfi.fr/science/20160708-droits-enfant-sante-medecine-nouvelles-technologies-ondes-electromagnetiques-teleph</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:date>2016-07-08T18:04:13+02:00</dc:date>
+        <dcterms:dateSubmitted>2017-05-10 09:02:41</dcterms:dateSubmitted>
+        <dcterms:abstract>Les ondes &amp;eacute;lectromagn&amp;eacute;tiques &amp;eacute;mises par les t&amp;eacute;l&amp;eacute;phones portables, les tablettes ou autres objets connect&amp;eacute;s sont potentiellement dangereux pour les enfants en bas &amp;acirc;ge, selon le rapport publi&amp;eacute; ce...</dcterms:abstract>
+        <dc:title>Un rapport pointe le danger des ondes électromagnétiques pour les enfants</dc:title>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_13">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/13/20160708-droits-enfant-sante-medecine-nouvelles-technologies-ondes-electromagnetiques-teleph.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.rfi.fr/science/20160708-droits-enfant-sante-medecine-nouvelles-technologies-ondes-electromagnetiques-teleph</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2017-05-10 09:02:42</dcterms:dateSubmitted>
+        <dc:title>Snapshot</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="http://www.lemonde.fr/sante/article/2016/07/08/alerte-sur-les-dangers-des-radiofrequences-pour-les-enfants_4965884_1651302.html">
+        <z:itemType>newspaperArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1950-6244"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Hir</foaf:surname>
+                        <foaf:givenname>Pierre Le</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_15"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.lemonde.fr/sante/article/2016/07/08/alerte-sur-les-dangers-des-radiofrequences-pour-les-enfants_4965884_1651302.html</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:date>2016-07-08T00:00:24+02:00</dc:date>
+        <dcterms:dateSubmitted>2017-05-10 09:24:28</dcterms:dateSubmitted>
+        <z:libraryCatalog>Le Monde</z:libraryCatalog>
+        <z:language>fr</z:language>
+        <dcterms:abstract>L’Anses pointe les « effets possibles » des téléphones mobiles et des jouets radiocommandés sur les fonctions cognitives et le bien-être des plus jeunes.</dcterms:abstract>
+        <dc:title>Alerte sur les dangers des radiofréquences pour les enfants</dc:title>
+    </bib:Article>
+    <bib:Newspaper rdf:about="urn:issn:1950-6244">
+        <dc:title>Le Monde.fr</dc:title>
+        <dc:identifier>ISSN 1950-6244</dc:identifier>
+    </bib:Newspaper>
+    <z:Attachment rdf:about="#item_15">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/15/alerte-sur-les-dangers-des-radiofrequences-pour-les-enfants_4965884_1651302.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.lemonde.fr/sante/article/2016/07/08/alerte-sur-les-dangers-des-radiofrequences-pour-les-enfants_4965884_1651302.html#89kgZUbgyWOy3RzF.99</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2017-05-10 09:24:29</dcterms:dateSubmitted>
+        <dc:title>Snapshot</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="http://www.lemonde.fr/planete/article/2017/03/02/paris-va-reduire-de-30-l-exposition-aux-ondes-des-antennes-relais_5088273_3244.html">
+        <z:itemType>newspaperArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Newspaper>
+                <dc:title>Le Monde.fr</dc:title>
+                <dc:identifier>ISSN 1950-6244</dc:identifier>
+            </bib:Newspaper>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Hir</foaf:surname>
+                        <foaf:givenname>Pierre Le</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_17"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.lemonde.fr/planete/article/2017/03/02/paris-va-reduire-de-30-l-exposition-aux-ondes-des-antennes-relais_5088273_3244.html</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:date>2017-03-02T15:39:21+01:00</dc:date>
+        <dcterms:dateSubmitted>2017-05-10 09:24:36</dcterms:dateSubmitted>
+        <z:libraryCatalog>Le Monde</z:libraryCatalog>
+        <z:language>fr</z:language>
+        <dcterms:abstract>La capitale veut devenir « la métropole la plus protectrice d’Europe », avec une charte de téléphonie mobile plus contraignante pour les opérateurs.</dcterms:abstract>
+        <dc:title>Paris va réduire de 30 % l’exposition aux ondes des antennes-relais</dc:title>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_17">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/17/paris-va-reduire-de-30-l-exposition-aux-ondes-des-antennes-relais_5088273_3244.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.lemonde.fr/planete/article/2017/03/02/paris-va-reduire-de-30-l-exposition-aux-ondes-des-antennes-relais_5088273_3244.html</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2017-05-10 09:24:37</dcterms:dateSubmitted>
+        <dc:title>Snapshot</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="http://tempsreel.nouvelobs.com/societe/20131015.OBS1205/danger-des-ondes-un-rapport-plus-alarmiste-qu-il-n-y-parait.html">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website><dc:title>L'Obs</dc:title></z:Website>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Benyahia-Kouider</foaf:surname>
+                        <foaf:givenname>Odile</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_20"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://tempsreel.nouvelobs.com/societe/20131015.OBS1205/danger-des-ondes-un-rapport-plus-alarmiste-qu-il-n-y-parait.html</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:date>15/10/2013</dc:date>
+        <dcterms:dateSubmitted>2017-05-10 17:41:35</dcterms:dateSubmitted>
+        <dcterms:abstract>Si l'Anses fait preuve d'une grande prudence dans la présentation de son rapport, elle appelle tout de même à beaucoup de précaution avec les ondes.</dcterms:abstract>
+        <dc:title>Danger des ondes : un rapport plus alarmiste qu'il n'y paraît</dc:title>
+        <z:shortTitle>Danger des ondes</z:shortTitle>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_20">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/20/danger-des-ondes-un-rapport-plus-alarmiste-qu-il-n-y-parait.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://tempsreel.nouvelobs.com/societe/20131015.OBS1205/danger-des-ondes-un-rapport-plus-alarmiste-qu-il-n-y-parait.html</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2017-05-10 17:41:37</dcterms:dateSubmitted>
+        <dc:title>Snapshot</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="http://sante.lefigaro.fr/actualite/2016/07/08/25183-ondes-enfants-etudes-manquent">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Court</foaf:surname>
+                        <foaf:givenname>Marielle</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_22"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://sante.lefigaro.fr/actualite/2016/07/08/25183-ondes-enfants-etudes-manquent</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:date>2016-07-08T00:00:00+02:00</dc:date>
+        <dcterms:dateSubmitted>2017-05-10 18:44:26</dcterms:dateSubmitted>
+        <dcterms:abstract>L'Agence sanitaire française constate l'absence de consensus scientifique sur l'exposition des plus jeunes.</dcterms:abstract>
+        <dc:title>Ondes et enfants : les études manquent</dc:title>
+        <z:shortTitle>Ondes et enfants</z:shortTitle>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_22">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/22/25183-ondes-enfants-etudes-manquent.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://sante.lefigaro.fr/actualite/2016/07/08/25183-ondes-enfants-etudes-manquent</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2017-05-10 18:44:29</dcterms:dateSubmitted>
+        <dc:title>Snapshot</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="http://sante.lefigaro.fr/actualite/2014/05/13/22339-telephone-portable-cancer-cerveau-risque-confirme">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_24"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://sante.lefigaro.fr/actualite/2014/05/13/22339-telephone-portable-cancer-cerveau-risque-confirme</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:date>2014-05-13T18:40:00+02:00</dc:date>
+        <dcterms:dateSubmitted>2017-05-10 18:50:55</dcterms:dateSubmitted>
+        <dcterms:abstract>Des chercheurs de l'université de Bordeaux ont montré un risque de tumeur cérébrale accru pour les gros utilisateurs. Un argument de plus en faveur..</dcterms:abstract>
+        <dc:title>Téléphone portable et cancer du cerveau : le risque confirmé</dc:title>
+        <z:shortTitle>Téléphone portable et cancer du cerveau</z:shortTitle>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_24">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/24/22339-telephone-portable-cancer-cerveau-risque-confirme.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://sante.lefigaro.fr/actualite/2014/05/13/22339-telephone-portable-cancer-cerveau-risque-confirme</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2017-05-10 18:50:57</dcterms:dateSubmitted>
+        <dc:title>Snapshot</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="http://nouveau.europresse.com/Link/TELECOMT_1/news·19991013·LM·668928">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+           <bib:Journal><dc:title>Le Monde</dc:title></bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>MICHEL</foaf:surname>
+                        <foaf:givenname>ALBERGANTI</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_27"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://nouveau.europresse.com/Link/TELECOMT_1/news·19991013·LM·668928</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:date>1999-10-13</dc:date>
+        <dc:title>Supplément d'enquête sur les risques des téléphones portables</dc:title>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_27">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/27/1.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://nouveau.europresse.com/Search/ResultMobile/1</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2017-05-15 12:21:18</dcterms:dateSubmitted>
+        <dc:title>Europresse.com</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="http://nouveau.europresse.com/Link/TELECOMT_1/news·19960911·LM·471606">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+           <bib:Journal><dc:title>Le Monde</dc:title></bib:Journal>
+        </dcterms:isPartOf>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://nouveau.europresse.com/Link/TELECOMT_1/news·19960911·LM·471606</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:date>1996-09-11</dc:date>
+        <dc:title>Les ondes suspectes du téléphone mobile</dc:title>
+    </bib:Article>
+    <bib:Article rdf:about="http://nouveau.europresse.com/Link/TELECOMT_1/news·19960911·LM·471674">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+           <bib:Journal><dc:title>Le Monde</dc:title></bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>PIERRE</foaf:surname>
+                        <foaf:givenname>LE HIR</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_32"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://nouveau.europresse.com/Link/TELECOMT_1/news·19960911·LM·471674</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:date>1996-09-11</dc:date>
+        <dc:title>L'usage de téléphones mobiles est-il dangereux pour la santé ?</dc:title>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_32">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/32/35.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://nouveau.europresse.com/Search/ResultMobile/35</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2017-05-17 07:55:59</dcterms:dateSubmitted>
+        <dc:title>Europresse.com</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="http://nouveau.europresse.com/Link/TELECOMT_1/news·20090423·PR·3772082">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+           <bib:Journal><dc:title>Le Progrès - Lyon</dc:title></bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>R</foaf:surname>
+                        <foaf:givenname>Sandrine Rancy Laurence Bufflier Recueilli par S. R. Recueilli par S.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_34"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://nouveau.europresse.com/Link/TELECOMT_1/news·20090423·PR·3772082</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:date>2009-04-23</dc:date>
+        <dc:title>Antennes-relais, portables : faut-il avoir peur pour notre santé ? A Lyon, un bailleur loue ses toits sans informer ses locataires « Il faut des mesures pour limiter le risque potentiel » « Aucun danger n'a été scientifiquement prouvé »</dc:title>
+        <z:shortTitle>Antennes-relais, portables</z:shortTitle>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_34">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/34/11.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://nouveau.europresse.com/Search/ResultMobile/11</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2017-05-17 08:14:35</dcterms:dateSubmitted>
+        <dc:title>Europresse.com</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="http://www.francetvinfo.fr/economie/free-designe-comme-4eme-operateur-de-telephone-portable_1612777.html">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website><dc:title>Franceinfo</dc:title></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_36"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.francetvinfo.fr/economie/free-designe-comme-4eme-operateur-de-telephone-portable_1612777.html</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:date>2011-11-01T23:00:00+01:00</dc:date>
+        <dcterms:dateSubmitted>2017-05-17 09:10:27</dcterms:dateSubmitted>
+        <dcterms:abstract>La candidature de Free Mobile, filiale d'Iliad, a été retenue pour la quatrième licence mobile de troisième génération (3G), a annoncé l'Arcep, le régulateur français des télécoms. Iliad était candidat unique dans le cadre de cet appel d'offres lancé en août dernier, pour une licence dont le prix a été fixé à 240 millions d'euros.</dcterms:abstract>
+        <dc:title>Free désigné comme 4ème opérateur de téléphone portable</dc:title>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_36">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/36/free-designe-comme-4eme-operateur-de-telephone-portable_1612777.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.francetvinfo.fr/economie/free-designe-comme-4eme-operateur-de-telephone-portable_1612777.html</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2017-05-17 09:10:27</dcterms:dateSubmitted>
+        <dc:title>Snapshot</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="http://nouveau.europresse.com/Link/TELECOMT_1/news·20130609·RUE·243087-226879">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+           <bib:Journal><dc:title>Rue89 (site web)</dc:title></bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Quirant</foaf:surname>
+                        <foaf:givenname>Jérôme</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_39"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://nouveau.europresse.com/Link/TELECOMT_1/news·20130609·RUE·243087-226879</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:date>2013-06-09</dc:date>
+        <dc:title>Mobiles, wifi, antennes : les ondes vont tous nous tuer... ou pas</dc:title>
+        <z:shortTitle>Mobiles, wifi, antennes</z:shortTitle>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_39">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/39/3.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://nouveau.europresse.com/Search/ResultMobile/3</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2017-05-22 08:32:51</dcterms:dateSubmitted>
+        <dc:title>Europresse.com</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="http://nouveau.europresse.com/Link/TELECOMT_1/news·20131015·HU·237474">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+           <bib:Journal><dc:title>l'Humanité</dc:title></bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Mouloud</foaf:surname>
+                        <foaf:givenname>Laurent</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_41"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://nouveau.europresse.com/Link/TELECOMT_1/news·20131015·HU·237474</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:date>2013-10-15</dc:date>
+        <dc:title>L'onde d'un doute sur la santé</dc:title>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_41">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/41/6.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://nouveau.europresse.com/Search/ResultMobile/6</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2017-05-22 08:52:49</dcterms:dateSubmitted>
+        <dc:title>Europresse.com</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="https://reporterre.net/A-l-Assemblee-nationale-le-lobby-de-la-telephonie-a-fait-reculer-la-protection">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+            <z:Website>
+               <dc:title>Reporterre, le quotidien de l 'écologie</dc:title>
+            </z:Website>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                       <foaf:surname>Moduloo.net</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_43"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://reporterre.net/A-l-Assemblee-nationale-le-lobby-de-la-telephonie-a-fait-reculer-la-protection</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2017-05-22 09:16:40</dcterms:dateSubmitted>
+        <dcterms:abstract>Dans la nuit du 11 au 12 octobre, des amendements dans une loi sur les territoires de montagne ont réduit à rien les dispositifs démocratiques mis en place par la loi Abeille sur l’implantation des antennes-relais. 
+
+La loi Abeille du 9 février 2015 permet de limiter l’exposition du public aux radiofréquences émises par les technologies sans-fil (antennes-relais, portables, Wifi, etc.). Elle donne quelques pouvoirs aux élus locaux, en imposant la modération en matière d’exposition aux ondes (...)</dcterms:abstract>
+        <dc:title>A l'Assemblée nationale, le lobby de la téléphonie a fait reculer la protection contre les ondes électro-magnétiques</dc:title>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_43">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/43/A-l-Assemblee-nationale-le-lobby-de-la-telephonie-a-fait-reculer-la-protection.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://reporterre.net/A-l-Assemblee-nationale-le-lobby-de-la-telephonie-a-fait-reculer-la-protection</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2017-05-22 09:16:40</dcterms:dateSubmitted>
+        <dc:title>Snapshot</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="http://www.cnewsmatin.fr/politique/2013-01-30/ondes-fleur-pellerin-evoque-des-peurs-irrationnelles-360882">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Matin</foaf:surname>
+                        <foaf:givenname>CNEWS</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_46"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.cnewsmatin.fr/politique/2013-01-30/ondes-fleur-pellerin-evoque-des-peurs-irrationnelles-360882</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2017-05-24 07:30:02</dcterms:dateSubmitted>
+        <dcterms:abstract>La ministre de l&amp;#39;Economie num&amp;eacute;rique, Fleur Pellerin, a mis en garde mercredi contre des &amp;quot;peurs irrationnelles&amp;quot; li&amp;eacute;es aux ondes...</dcterms:abstract>
+        <dc:title>Ondes : Fleur Pellerin évoque des &quot;peurs irrationnelles&quot;</dc:title>
+        <z:shortTitle>Ondes</z:shortTitle>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_46">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/46/ondes-fleur-pellerin-evoque-des-peurs-irrationnelles-360882.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.cnewsmatin.fr/politique/2013-01-30/ondes-fleur-pellerin-evoque-des-peurs-irrationnelles-360882</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2017-05-24 07:30:02</dcterms:dateSubmitted>
+        <dc:title>Snapshot</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="https://fr.wikipedia.org/w/index.php?title=Agence_fran%C3%A7aise_de_s%C3%A9curit%C3%A9_sanitaire_de_l%27environnement_et_du_travail&amp;oldid=128584905">
+        <z:itemType>encyclopediaArticle</z:itemType>
+        <dcterms:isPartOf>
+           <bib:Book><dc:title>Wikipédia</dc:title></bib:Book>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_48"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://fr.wikipedia.org/w/index.php?title=Agence_fran%C3%A7aise_de_s%C3%A9curit%C3%A9_sanitaire_de_l%27environnement_et_du_travail&amp;oldid=128584905</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:rights>Creative Commons Attribution-ShareAlike License</dc:rights>
+        <dc:date>2016-08-12T12:29:39Z</dc:date>
+        <dc:description>Page Version ID: 128584905</dc:description>
+        <dcterms:dateSubmitted>2017-05-24 09:20:03</dcterms:dateSubmitted>
+        <z:libraryCatalog>Wikipedia</z:libraryCatalog>
+        <z:language>fr</z:language>
+        <dcterms:abstract>L’Agence française de sécurité sanitaire de l'environnement et du travail (Afsset), ancienne AFSSE devenue Afsset en 2005 avec élargissement des missions de l’Agence au champ de la santé au travail, était un établissement public administratif de l’État placé sous la tutelle des ministres chargés de la santé, de l’écologie et du travail implanté également à Maisons-Alfort. Elle a fusionné au 1er juillet 2010 avec l'Agence française de sécurité sanitaire des aliments (Afssa) pour former l'Agence nationale chargée de la sécurité sanitaire de l'alimentation, de l'environnement et du travail (Anses).</dcterms:abstract>
+        <dc:title>Agence française de sécurité sanitaire de l'environnement et du travail</dc:title>
+    </rdf:Description>
+    <z:Attachment rdf:about="#item_48">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/48/index.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://fr.wikipedia.org/w/index.php?title=Agence_fran%C3%A7aise_de_s%C3%A9curit%C3%A9_sanitaire_de_l%27environnement_et_du_travail&amp;oldid=128584905</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2017-05-24 09:20:04</dcterms:dateSubmitted>
+        <dc:title>Snapshot</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+</rdf:RDF>

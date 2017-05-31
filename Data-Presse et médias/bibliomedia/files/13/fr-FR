@@ -1,0 +1,13 @@
+(function() {
+    var translation = {"ERROR_GENERIC_PREFIX":"Désolé. Nous ne pouvons vous connecter en ce moment.","ERROR_GENERIC_PREFIX2":"Voici ","ERROR_GENERIC_SUFFIX":" si le problème se poursuit.","ERROR_PREFIX_AOL":"Nous ne pouvons vous connecter. Veuillez vérifier votre identité. Besoin ","ERROR_PREFIX_BLOGGER":"Nous ne pouvons vous connecter. Veuillez vérifier votre domaine. Besoin ","ERROR_PREFIX_NETLOG":"Nous ne pouvons vous connecter. Veuillez vérifier votre nom. Besoin ","ERROR_PREFIX_OPENID":"Nous ne pouvons vous connecter. Veuillez vérifier votre identité OpenID. Besoin ","ERROR_PREFIX_USERNAME":"Nous ne pouvons vous connecter. Veuillez vérifier votre nom d'utilisateur. Besoin ","ERROR_SUFFIX_AOL":"?","ERROR_SUFFIX_BLOGGER":"?","ERROR_SUFFIX_NETLOG":"?","ERROR_SUFFIX_OPENID":"?","ERROR_SUFFIX_USERNAME":"?","HEADER":"Se connecter avec votre compte","HELP":"d'aide","INPUT_EXAMPLE_BLOGGER":"ex: moi.blogspot.com ou mondomaineblogger.com","INPUT_PROMPT_AOL":"Votre nom AOL","INPUT_PROMPT_BLOGGER":"Votre domaine Blogger","INPUT_PROMPT_LIVEJOURNAL":"Votre nom d'utilisateur LiveJournal","INPUT_PROMPT_NETLOG":"Votre nom Netlog","INPUT_PROMPT_OPENID":"Votre URL OpenID","INPUT_PROMPT_WORDPRESS":"Votre nom d'utilisateur WordPress","SIGNING_IN":"Authentification ...","MORE_INFO":"plus d'information","NOT_YOU":"ce n'est pas moi","PAGE":"page","POWERED_BY_PREFIX":"Authentification sociale ","POWERED_BY_SUFFIX":"par Janrain","SIGN_IN":"Se connecter","TRY_AGAIN":"Essayez de nouveau","USE_ANOTHER_ACCOUNT":"utilisez un autre compte","WELCOME_BACK":"Bienvenue","WELCOME_BACK_PREFIX":"Bienvenue, ","WELCOME_BACK_SUFFIX":"","SIGN_IN_AS":"Connectez-vous avec {name}"};
+    if (!janrain.settings.translate || janrain.settings.translate === {}) {
+        janrain.settings.translate = translation;
+    }
+    else {
+        for (var str in translation) {
+            if(!janrain.settings.translate[str] || str === "POWERED_BY_PREFIX" || str === "POWERED_BY_SUFFIX") {
+                janrain.settings.translate[str] = translation[str];
+            }
+        }
+    }
+})();
