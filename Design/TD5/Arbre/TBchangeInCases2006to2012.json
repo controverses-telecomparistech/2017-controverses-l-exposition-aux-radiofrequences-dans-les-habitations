@@ -4,67 +4,84 @@
     {
       "children": [
         {
+		"children": [
+        {
           "rate": -0.4,
           "value": 70,
-          "name": "Black or African American, Non-Hispanic"
+          "name": "Augmentation de la perméabilité de la barrière hémato-encéphalique pour une exposition aux micro-ondes"
         },
         {
           "rate": -0.4,
           "value": 70,
-          "name": "Hispanic or Latino"
+          "name": "Les enfants sont sensibles du fait que le développement de leurs organes n'est pas terminé"
+        },
+        {
+          "rate": -0.4,
+          "value": 70,
+          "name": "Lien statistique non négligeable entre l'exposition au champs de lignes de haute-tension EDF et la leucémie"
+        },
+        {
+          "rate": -0.4,
+          "value": 70,
+          "name": "Pas de preuve forte d'une impact négative sur la santé des ondes domestiques, seulement des soupcon amenés par des études épidémiologiques (faible niveau de preuve) "
+        },
+		{
+          "rate": -0.4,
+          "value": 70,
+          "name": "Les radio-fréquences affectent certains paramètres biologiques sans qu'on sache les effets que cela peut avoir"
+        }
+      ],
+      
+          "rate": -0.4,
+          "value": 70,
+          "name": "Santé"
+        },
+        
+		{
+		"children":[
+        {
+          "rate": -0.4,
+          "value": 70,
+          "name": "Interdire l'utilisation de certaines ondes c'est ralentir l'innovation"
+        },
+        {
+          "rate": -0.4,
+          "value": 70,
+          "name": "Interdire l'utilisation de certaines ondes c'est ralentir l'entreprenariat"
+        },
+        {
+          "rate": -0.4,
+          "value": 70,
+          "name": "Débat politique entre Les Républicains et EELV"
+        }],
+          "rate": -0.4,
+          "value": 70,
+          "name": "Economie"
         }
       ],
       "rate": -0.4,
-      "name": "Droit"
+      "name": "Quels pourrait être les dangers ?"
     },
     {
       "children": [
         {
           "rate": -0.4,
           "value": 70,
-          "name": "Black or African American, Non-Hispanic"
+          "name": "Les antennes : aucunes études ne montre de corrélation entre le fait d'habiter à proximité d'une antenne et le développement de certaines maladies"
         },
         {
           "rate": -0.4,
           "value": 70,
-          "name": "Hispanic or Latino"
-        }
-      ],
-      "rate": -0.4,
-      "name": "Science"
-    },
-
-    {
-      "children": [
-        {
-          "rate": -0.4,
-          "value": 70,
-          "name": "Black or African American, Non-Hispanic"
+          "name": "Les scientifiques s'accordent à dire que les téléphones portables sont plus dangereux que les antennes"
         },
         {
           "rate": -0.4,
           "value": 70,
-          "name": "Hispanic or Latino"
+          "name": "WIFI : Aucun risque mis en évidence"
         }
       ],
       "rate": -0.4,
-      "name": "Média"
-    },
-    {
-      "children": [
-        {
-          "rate": -0.4,
-          "value": 70,
-          "name": "Black or African American, Non-Hispanic"
-        },
-        {
-          "rate": -0.4,
-          "value": 70,
-          "name": "Hispanic or Latino"
-        }
-      ],
-      "rate": -0.4,
-      "name": "Politique"
+      "name": "De quels objets devrait-on se méfier ?"
     }
   ],
   "rate": -0.4,
