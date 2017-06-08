@@ -1,0 +1,7 @@
+Commentaires/Retours :
+
+arbre du débat : bonne idée mais améliorer le visuel : moins rectangulaire
+
+frise chrono : rien à dire
+
+cartographie des acteurs : ajouter légende, couleur en fonction de la position de l'acteur et aussi un texte de présentation de l'acteur quand on clique sur son nom.
