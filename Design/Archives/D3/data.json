@@ -1,0 +1,14 @@
+[
+    {"mois":"janvier", "valeur":5},
+    {"mois":"février", "valeur":10},
+    {"mois":"mars", "valeur":13},
+    {"mois":"avril", "valeur":19},
+    {"mois":"mai", "valeur":21},
+    {"mois":"juin", "valeur":25},
+    {"mois":"juillet", "valeur":22},
+    {"mois":"août", "valeur":18},
+    {"mois":"septembre", "valeur":15},
+    {"mois":"octobre", "valeur":13},
+    {"mois":"novembre", "valeur":11},
+    {"mois":"décembre", "valeur":12}
+]

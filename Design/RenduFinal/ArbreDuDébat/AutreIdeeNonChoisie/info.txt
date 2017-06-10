@@ -1,0 +1,1 @@
+ne fonctionne pas avec internet explorer, problème de chevauchement, l'idée a de toute facon été abandonnée par le groupe.

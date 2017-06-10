@@ -1,0 +1,72 @@
+{
+  "children": [
+
+    {
+      "children": [
+        {
+          "rate": -0.4,
+          "value": 70,
+          "name": "Black or African American, Non-Hispanic"
+        },
+        {
+          "rate": -0.4,
+          "value": 70,
+          "name": "Hispanic or Latino"
+        }
+      ],
+      "rate": -0.4,
+      "name": "Droit"
+    },
+    {
+      "children": [
+        {
+          "rate": -0.4,
+          "value": 70,
+          "name": "Black or African American, Non-Hispanic"
+        },
+        {
+          "rate": -0.4,
+          "value": 70,
+          "name": "Hispanic or Latino"
+        }
+      ],
+      "rate": -0.4,
+      "name": "Science"
+    },
+
+    {
+      "children": [
+        {
+          "rate": -0.4,
+          "value": 70,
+          "name": "Black or African American, Non-Hispanic"
+        },
+        {
+          "rate": -0.4,
+          "value": 70,
+          "name": "Hispanic or Latino"
+        }
+      ],
+      "rate": -0.4,
+      "name": "Média"
+    },
+    {
+      "children": [
+        {
+          "rate": -0.4,
+          "value": 70,
+          "name": "Black or African American, Non-Hispanic"
+        },
+        {
+          "rate": -0.4,
+          "value": 70,
+          "name": "Hispanic or Latino"
+        }
+      ],
+      "rate": -0.4,
+      "name": "Politique"
+    }
+  ],
+  "rate": -0.4,
+  "name": "Doit-on se méfier des ondes domestiques ?"
+}

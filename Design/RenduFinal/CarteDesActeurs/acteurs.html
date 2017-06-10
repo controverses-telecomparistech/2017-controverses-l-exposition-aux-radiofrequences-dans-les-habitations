@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<style>
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300italic,600italic,300,600");
+body {
+	background-color: rgba(27, 31, 34, 0.85);
+  	font-family: 'Source Sans Pro';
+	height:500px;
+	width:960px;
+	
+}
+#invisible
+{
+	color:white;
+}
+
+#info 
+{
+display:flex;
+}
+#image {
+	margin:0px;
+	padding:0px;
+}
+
+.node circle {
+  fill: grey;
+  stroke: grey;
+  stroke-width: 3px;
+}
+
+.node text {
+  font-size: 15px;
+  fill:#fff;
+}
+
+
+.link {
+  fill: none;
+  stroke: #444;
+  stroke-width: 2px;
+}
+
+
+</style>
+
+<body>
+
+<!-- load the d3.js library -->
+<script src="https://d3js.org/d3.v4.min.js"></script>
+
+<div id ="arbre">
+<div id ="d3">
+<script>
+
+var treeData =
+  {
+    "name": "Acteurs",
+    "children": [
+      {
+        "name": "Politique & Droit",
+        "children": [
+          { "name": "ANFR", "color":"blue","text":"L'Agence nationale des fréquences s'occupe de la gestion des bandes de fréquences et prospective, de l'assignation des fréquences et gestion de sites, de la gestion des fréquences pour le compte des affectataires."},
+          { "name": "ARCEP" ,"color":"blue","text":"L'Autorité de régulation des communications électroniques et des postes s'occupe de la régulation des puissances émises en intérieur, et de fixer, dans le cadre légal, des obligations générales s'appliquant à tous les opérateurs."},
+          { "name": "ORECE/BERC","color":"blue" ,"text":"L'Office de l’Organe des régulateurs européens des communications s'occupe de renforcer la coopération entre les régulateurs des États européens et les institutions européennes, de la protection des consommateurs des telecoms comme priorité ainsi que de garantir que la législation européenne est appliquée de manière uniforme, afin de permettre à l'UE de disposer d'un marché unique des communications électroniques efficace."},
+          { "name": "ANSES" ,"color":"blue","text":"L'Agence Nationale Sécurité Sanitaire Alimentaire Nationale s'occupe de réaliser un bilan sur le statut réglementaire national et international de la technologie sans fil, de réaliser une revue scientifique des études disponibles sur les risques sanitaires éventuels liés à l'utilisation des émissions radio, et de réaliser une évaluation du risque sanitaire globale, vis-à-vis de la population générale."},
+          { "name": "Parlement" ,"color":"blue","text":"Le Pouvoir législatif français (Sénat et Assemblée Nationale) a réalisé deux décrets, le décret no 2002-775 du 3 mai 2002 qui impose un niveau global maximum d’exposition du public aux champs électromagnétiques et le décret no 2010-1207 du 12 octobre 2010 relatif à l’affichage du débit d’absorption spécifique des équipements terminaux radioélectriques. Aussi une loi a été créée, la loi n° 2015-136 du 9 février 2015 relative à la sobriété, à la transparence, à l’information et à la concertation en matière d’exposition aux ondes électromagnétiques."},
+          { "name": "LPE" ,"color":"red","text":"Le Parti Ecologiste a fait des proposition de lois contraignantes pour encadrer l'exposition aux ondes électromagnétiques. Son à l'origine du principe de précaution, compromis avec le Parti socialiste sur la Loi n° 2015-136 du 9 février 2015 relative à la sobriété, à la transparence, à l’information et à la concertation en matière d’exposition aux ondes électromagnétiques."},
+          { "name": "SECE" ,"color":"blue","text":"Le Secrétariat d'Etat chargé de l'écologie a organisé une table ronde Radiofréquence, santé, environnement, a poussé le gouvernement à retenir certaines orientations pour répondre aux inquiétudes de la population concernant la téléphonie mobile, les antennes, etc. Aussi informe les élus locaux, suivi des seuils d'exposition, contrôle en collaboration avec l'ANFR…"},
+          { "name": "ICNIRP","color":"blue","text":"La Commission internationale sur la radioprotection non ionisante a fournit des conseils sur les risques sanitaires de l'exposition de la radiation non ionisante et développe les directives internationales sur des limites d'exposition aux rayonnements non ionisants."}
+
+        ], "color" : "blue","text":""
+      },
+      { "name": "Media" ,
+      "children": [
+          { "name": "Nouvel Obs", "color":"red","text":""},
+          { "name": "Le Monde", "color":"blue","text":""},
+          { "name": "Le Figaro", "color":"blue","text":""},
+    	  { "name": "Le Parisien", "color":"blue","text":""}
+        ], "color":"blue","text":""},
+      { "name": "Science",
+      "children": [
+          { "name": "OMS", "color":"green","text":""},
+          { "name": "CIRC", "color":"green","text":""},
+          { "name": "CRSSA", "color":"green","text":""},
+    	  { "name": "Fédération Française des Télécoms", "color":"green","text":""},
+    	  { "name": "Robin des toits", "color":"red","text":""},
+    	  { "name": "Fondation santé et RF", "color":"green","text":""}
+        ], "color":"blue","text":""},
+      { "name": "Population", 
+      "children": [
+          { "name": "Blog : Alterinfo", "color":"red","text":""},
+          { "name": "François Charron", "color":"blue","text":""},
+          { "name": "Asso : Alerte Environnement", "color":"green","text":""}
+        ], "color":"blue","text":""}
+    ]
+    ,"color":"blue","text":""
+  };
+
+// Set the dimensions and margins of the diagram
+var margin = {top: 20, right: 90, bottom: 30, left: 90},
+    width = 960 - margin.left - margin.right,
+    height = 500 - margin.top - margin.bottom;
+
+// append the svg object to the body of the page
+// appends a 'group' element to 'svg'
+// moves the 'group' element to the top left margin
+var svg = d3.select("body").append("svg")
+    .attr("width", width + margin.right + margin.left)
+    .attr("height", height + margin.top + margin.bottom)
+  .append("g")
+    .attr("transform", "translate("
+          + margin.left + "," + margin.top + ")");
+
+var i = 0,
+    duration = 750,
+    root;
+
+// declares a tree layout and assigns the size
+var treemap = d3.tree().size([height, width]);
+
+// Assigns parent, children, height, depth
+root = d3.hierarchy(treeData, function(d) { return d.children; });
+root.x0 = height / 2;
+root.y0 = 0;
+
+// Collapse after the second level
+root.children.forEach(collapse);
+
+update(root);
+
+// Collapse the node and all it's children
+function collapse(d) {
+  if(d.children) {
+    d._children = d.children
+    d._children.forEach(collapse)
+    d.children = null
+  }
+}
+
+function update(source) {
+
+  // Assigns the x and y position for the nodes
+  var treeData = treemap(root);
+
+  // Compute the new tree layout.
+  var nodes = treeData.descendants(),
+      links = treeData.descendants().slice(1);
+
+  // Normalize for fixed-depth.
+  nodes.forEach(function(d){ d.y = d.depth * 180});
+
+  // ****************** Nodes section ***************************
+
+  // Update the nodes...
+  var node = svg.selectAll('g.node')
+      .data(nodes, function(d) {return d.id || (d.id = ++i); });
+
+  // Enter any new modes at the parent's previous position.
+  var nodeEnter = node.enter().append('g')
+      .attr('class', 'node')
+      .attr("transform", function(d) {
+        return "translate(" + source.y0 + "," + source.x0 + ")";
+    })
+    .on('click', click);
+
+  // Add Circle for the nodes
+  nodeEnter.append('circle')
+      .attr('class', 'node')
+      .attr('r', 1e-6)
+      .style("fill", function(d) {
+          return d._children ? "lightsteelblue" : "#fff";
+      });
+
+
+  nodeEnter.append
+
+  // Add labels for the nodes
+  nodeEnter.append('text')
+      .attr("dy", ".35em")
+      .attr("x", function(d) {
+          return d.children || d._children ? -13 : 13;
+      })
+      .attr("text-anchor", function(d) {
+          return d.children || d._children ? "end" : "start";
+      })
+      .text(function(d) { return d.data.name; })
+      ;
+
+  // UPDATE
+  var nodeUpdate = nodeEnter.merge(node);
+
+  // Transition to the proper position for the node
+  nodeUpdate.transition()
+    .duration(duration)
+    .attr("transform", function(d) {
+        return "translate(" + d.y + "," + d.x + ")";
+     });
+
+  // Update the node attributes and style
+  nodeUpdate.select('circle.node')
+    .attr('r', 10)
+    .style("fill", function(d) {
+        return d._children ? "lightsteelblue" : "#fff";
+    })
+    .attr('cursor', 'pointer');
+
+    //adapte la couleur
+
+    nodeUpdate.select('circle.node')
+        .style("stroke",function(d){
+          return d.data.color;
+        });
+
+
+  // Remove any exiting nodes
+  var nodeExit = node.exit().transition()
+      .duration(duration)
+      .attr("transform", function(d) {
+          return "translate(" + source.y + "," + source.x + ")";
+      })
+      .remove();
+
+  // On exit reduce the node circles size to 0
+  nodeExit.select('circle')
+    .attr('r', 1e-6);
+
+  // On exit reduce the opacity of text labels
+  nodeExit.select('text')
+    .style('fill-opacity', 1e-6);
+
+  // ****************** links section ***************************
+
+  // Update the links...
+  var link = svg.selectAll('path.link')
+      .data(links, function(d) { return d.id; });
+
+  // Enter any new links at the parent's previous position.
+  var linkEnter = link.enter().insert('path', "g")
+      .attr("class", "link")
+      .attr('d', function(d){
+        var o = {x: source.x0, y: source.y0}
+        return diagonal(o, o)
+      });
+
+  // UPDATE
+  var linkUpdate = linkEnter.merge(link);
+
+  // Transition back to the parent element position
+  linkUpdate.transition()
+      .duration(duration)
+      .attr('d', function(d){ return diagonal(d, d.parent) });
+
+  // Remove any exiting links
+  var linkExit = link.exit().transition()
+      .duration(duration)
+      .attr('d', function(d) {
+        var o = {x: source.x, y: source.y}
+        return diagonal(o, o)
+      })
+      .remove();
+
+  // Store the old positions for transition.
+  nodes.forEach(function(d){
+    d.x0 = d.x;
+    d.y0 = d.y;
+  });
+
+  // Creates a curved (diagonal) path from parent to the child nodes
+  function diagonal(s, d) {
+
+    path = `M ${s.y} ${s.x}
+            C ${(s.y + d.y) / 2} ${s.x},
+              ${(s.y + d.y) / 2} ${d.x},
+              ${d.y} ${d.x}`
+
+    return path
+  }
+
+  // Toggle children on click.
+  function click(d) {
+    if (d.children) {
+        d._children = d.children;
+        d.children = null;
+      } else {
+        d.children = d._children;
+        d._children = null;
+      }
+    update(d);
+    if(document.getElementById('invisible').style.display == 'none'){
+      document.getElementById('invisible').innerHTML = "<h1>" + d.data.name + "</h1>" + d.data.text;
+    	document.getElementById('invisible').style.display = 'block';
+  		}
+  		else {
+    	document.getElementById('invisible').style.display = 'none';
+
+		}
+  }
+}
+function clique_sur_node(s1, s2) {
+    document.getElementById("pinfo").tabIndex = -1;
+    document.getElementById("pinfo").focus();
+    document.getElementById("pinfo").innerHTML = "<h1>" + s1 + "</h1>" + s2;
+}
+function vaEtVient(s1,s2){
+		if(document.getElementById('invisible').style.display == 'none'){
+    	document.getElementById('invisible').style.display = 'block';
+  		}
+  		else {
+    	document.getElementById('invisible').style.display = 'none';
+		}
+}
+
+</script>
+</div>
+</div>
+<div id= "info">
+<div id ="image"><img src="legende.gif" style="width:480px;height:360px;"></div>
+<div id ="invisible"> </div>
+</div>
+</body>

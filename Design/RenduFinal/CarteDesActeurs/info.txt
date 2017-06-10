@@ -1,0 +1,1 @@
+L'arbre se déploie en cliquant sur ses noeuds. De plus un texte informatif apparait lorsqu'on clique sur les feuilles de l'arbre.
